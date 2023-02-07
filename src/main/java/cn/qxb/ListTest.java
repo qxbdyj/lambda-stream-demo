@@ -48,6 +48,7 @@ public class ListTest {
                 return e1.getSalary().compareTo(e2.getSalary());
             }
             return i;
+
         });
         //排序后遍历
         list.forEach(System.out::println);
