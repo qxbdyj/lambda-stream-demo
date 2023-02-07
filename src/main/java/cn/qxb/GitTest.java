@@ -28,5 +28,6 @@ public class GitTest {
         System.out.println("你好");
         System.out.println("你好2");
         System.out.println("1");
+        System.out.println("2");
     }
 }
