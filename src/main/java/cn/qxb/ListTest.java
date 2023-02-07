@@ -62,6 +62,5 @@ public class ListTest {
     public void test4() throws Exception{
         Long sumTwo = LambdaTest.getSumTwo(45L, l -> l);
         System.out.println(sumTwo);
-        System.out.println(sum);
     }
 }
