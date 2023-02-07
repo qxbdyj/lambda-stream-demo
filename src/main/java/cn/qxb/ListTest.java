@@ -30,6 +30,7 @@ public class ListTest {
             System.out.println(b);
             List<Employee> list = collect.get(b);
             list.forEach(System.out::println);
+            list.forEach(System.out::println);
         });
     }
 
