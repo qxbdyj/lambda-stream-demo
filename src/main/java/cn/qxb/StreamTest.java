@@ -15,6 +15,7 @@ import java.util.stream.Collectors;
  */
 public class StreamTest {
     @Test
+
     public void test1() throws Exception{
         List<Integer> collect = Arrays.asList(1, 2, 3, 4, 5).stream().map(num -> num * num).collect(Collectors.toList());
         System.out.println(collect);
